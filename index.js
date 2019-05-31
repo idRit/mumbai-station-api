@@ -10,5 +10,5 @@ app.use(bodyParser.json());
 
 require('./api/routes/stations.route.js')(app);
 
-app.listen(3001);
-console.log('listening on port 3001');
+app.listen(3030);
+console.log('listening on port 3030');
